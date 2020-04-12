@@ -1,0 +1,32 @@
+#menuNav {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#menuNav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 50px;
+}
+
+#menuNav ul li {
+    float: right;
+    font-family: 'Cycle';
+    padding: 12px;
+    outline: none;
+    color: #f2ae0a;
+}
+
+#menuNav ul li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#menuNav ul .active{
+    color: white;
+    border-left: 2px double white;
+    border-right: 2px double white;
+}
