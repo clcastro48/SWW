@@ -1,1 +1,76 @@
+#contFilms {
+    width: 100%;
+}
 
+#tituloF {
+    display: block;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    font-family: 'HeroesA';
+    color: #f2ae0a;
+    font-size: 3.4em;
+}
+
+#imfF {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    z-index: -1;
+}
+
+#imfF img {
+    width: 300px;
+}
+
+#infF {
+    display: flex;
+    background: rgba(255,255,255,0.6);
+    width: 100%;
+    z-index: 40;
+}
+
+#secFS {
+    display: inline-block;
+    margin: 0;
+}
+
+.secF {
+    display: block;
+    margin: 0px 0px 0px 50px;
+}
+
+.filmC {
+    margin:3px 4px;
+    width: 95px;
+    cursor: pointer;
+}
+
+#secFP {
+    display: inline-block;
+    margin-left: 2px;
+    padding: 3px 4px;
+    margin: 0;
+}
+
+#film7 {
+    width:197px;
+    cursor: pointer;
+}
+
+#secFC {
+    display: inline-block;
+    margin-left: 10px;
+    margin: 10px 30px;
+    width: 50%;
+    text-align: justify;
+    font-family: 'Cycle';
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#secFC h2 {
+    font-family: 'HeroesA';
+    text-align: center;
+    font-size: 30px;
+}
