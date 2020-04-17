@@ -30,3 +30,14 @@
     border-left: 2px double white;
     border-right: 2px double white;
 }
+
+
+@media screen and (max-width: 582px) {
+    #menuNav ul li {
+        font-size: 12px;
+    }
+
+    #menuNav {
+        background-color: black;
+    }
+}
