@@ -9,7 +9,7 @@
     text-align: center;
     font-family: 'HeroesA';
     color: #f2ae0a;
-    font-size: 3.4em;
+    font-size: 4.4em;
 }
 
 #imfF {
@@ -21,6 +21,10 @@
 
 #imfF img {
     width: 300px;
+}
+
+#infF2 {
+    display: none;
 }
 
 #infF {
@@ -42,7 +46,7 @@
 
 .filmC {
     margin:3px 4px;
-    width: 95px;
+    width: 90px;
     cursor: pointer;
 }
 
@@ -54,7 +58,7 @@
 }
 
 #film7 {
-    width:197px;
+    width:187px;
     cursor: pointer;
 }
 
@@ -73,4 +77,80 @@
     font-family: 'HeroesA';
     text-align: center;
     font-size: 30px;
+}
+
+#espacio_menu {
+    width: 100%;
+    height: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+    #imfF img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1215px) {
+    .filmC {
+        width: 70px;
+    }
+
+    #film7 {
+        width:147px;
+    }
+
+    #secFC {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    #infF {
+        display: none;
+    }
+
+    #infF2 {
+        display: block;
+        background: rgba(255,255,255,0.6);
+        width: 100%;
+        z-index: 40;
+    }
+
+    #secFC2 {
+        display: block;
+        display: inline-block;
+        margin-left: 10px;
+        margin: 10px 30px;
+        width: 92%;
+        text-align: justify;
+        font-family: 'Cycle';
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #secFC2 h2 {
+        font-family: 'HeroesA';
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #secFC3 {
+        display: block;
+        padding: 0px 20px;
+    }
+
+    .filmC {
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    #secFC2 {
+        width: 86%;
+    }
+
+    #secFC3 {
+        display: block;
+        padding: 0px 85px;
+    }
 }
