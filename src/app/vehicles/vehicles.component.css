@@ -1,1 +1,21 @@
 
+h1 {
+    color: gold;
+    text-align: center;
+}
+a {
+    text-align: center;
+    color: gold;
+    line-height: 50px;
+}
+.imagen {
+    line-height: 200px;
+}
+p {
+    color: gold;
+    text-align-last: center;
+    line-height: 25px;
+    font-style: oblique;
+    size: 100px;
+    text-overflow: clip;
+}
