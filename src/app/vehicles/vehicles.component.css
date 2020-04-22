@@ -1,21 +1,60 @@
-
 h1 {
-    color: gold;
+    color: #f2ae0a;
     text-align: center;
+    font-family: 'HeroesA';
+    font-size: 50px;
 }
+
+#cont_text{
+    width: 100%;
+    background: rgba(255,255,255,0.6);
+}
+
 a {
     text-align: center;
-    color: gold;
+    color: #f2ae0a;
     line-height: 50px;
+    font-family: 'Cycle';
+    text-decoration: none;
 }
+
+#div_img_v {
+    width: 49%;
+}
+
 .imagen {
-    line-height: 200px;
+    width: 420px;
+    margin-left: 20%;
 }
 p {
-    color: gold;
     text-align-last: center;
     line-height: 25px;
-    font-style: oblique;
     size: 100px;
     text-overflow: clip;
+    font-family: 'Cycle';
+}
+
+#opc_div {
+    width: 49%;
+}
+
+#cont_prin {
+    display: flex;
+}
+
+h2 {
+    border: 4px double #f2ae0a;
+    text-align: center;
+    width:300px;
+    background: rgba(34,34,34,0.75);
+}
+
+#h22{
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#h23{
+    margin-left: 300px;
 }
