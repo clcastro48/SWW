@@ -1,0 +1,32 @@
+
+< p > vehículos funciona! </ p >
+<! DOCTYPE html >
+< html  lang = " en " >
+< cabeza >
+    < meta  charset = " UTF-8 " >
+    < meta  name = " viewport " content = " width =, initial-scale = 1.0 " >
+    < título > Documento </ título >
+</ cabeza >
+< cuerpo >
+    < div >
+        
+        < h1 > VEHÍCULOS </ h1 >
+
+        < p > En Star Wars existen inumerables vehículos y formas de propulsión.
+            La mayoría de estos suelen tener un sistema de "repulsión" que hace literalmente flotar sobre el suelo. Además, también hay
+            una gran variedad de vehículos tanto aéreos como espaciales. 
+              Otros vehículos son simplemente tanques zoomorfos que caminan como animales sobre los suelos de los más inhóspitos planetas. </ p >
+
+        < img  src = " https://db-api.elestimulo.com/app/uploads/2015/12/nave-star-wars-ub-feature-1-1100x572.jpg " alt = "" srcset = "" >
+
+        < H2 > > < un  href = " # " > vehículos de la IMPIRE </ una > </ h2 >
+        < H2 > > < un  href = " # " > REPÚBLICA VEHÍCULOS </ a > </ h2 >
+        < H2 > > < un  href = " # " > RESISTENCIA A LOS VEHÍCULOS </ a > </ h2 >
+
+        < img  src = " https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/styles/480/public/media/image/2017/11/ala-x.jpg?itok=7hRqeo6m " alt = "" >
+
+    </ div >
+
+</ cuerpo >
+</ html >
+© 2020 GitHub, Inc.
