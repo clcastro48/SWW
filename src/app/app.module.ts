@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { FormsModule }  from '@angular/forms';
 import { Routes, RouterModule } from '@angular/router';
@@ -14,6 +15,8 @@ import { PlanetsComponent } from './planets/planets.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { ContenidoComponent } from './contenido/contenido.component';
 import { MenuNavegComponent } from './menu-naveg/menu-naveg.component';
+import { PlanetasService } from "./planetas.service";
+
 
 @NgModule({
   declarations: [
@@ -30,9 +33,11 @@ import { MenuNavegComponent } from './menu-naveg/menu-naveg.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+  
   ],
-  providers: [],
+  providers: [PlanetasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
