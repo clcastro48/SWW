@@ -15,8 +15,8 @@ import { PlanetsComponent } from './planets/planets.component';
 import { CabeceraComponent } from './cabecera/cabecera.component';
 import { ContenidoComponent } from './contenido/contenido.component';
 import { MenuNavegComponent } from './menu-naveg/menu-naveg.component';
+import { FilmsService } from './films.service';
 import { PlanetasService } from "./planetas.service";
-
 
 @NgModule({
   declarations: [
@@ -35,7 +35,6 @@ import { PlanetasService } from "./planetas.service";
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
-  
   ],
   providers: [PlanetasService],
   bootstrap: [AppComponent]

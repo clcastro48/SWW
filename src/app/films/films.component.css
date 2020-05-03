@@ -1,5 +1,86 @@
+@font-face {
+    font-family: 'PTSerif';
+    /* Antes de descargar el archivo, le decimos al buscador
+    que intente buscar en local la fuente con nombre
+    Cabin, Cabin Regular o Cabin-Regular */
+    src: url(PTSerif-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'PTSerif_Reg';
+    /* Antes de descargar el archivo, le decimos al buscador
+    que intente buscar en local la fuente con nombre
+    Cabin, Cabin Regular o Cabin-Regular */
+    src: url(PTSerif-Regular.ttf) format('truetype');
+}
+
 #contFilms {
     width: 100%;
+}
+
+#contdescripFilmstitle {
+    width: 100%;
+    display: flex;
+    background: rgba(0,0,0,1);
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+#contdescripFilmstitle h1{
+    width: 100%;
+    color: white;
+    font-family: 'PTSerif';
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+#contdescripFilms {
+    width: 100%;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 25px;
+}
+
+#contdescripFilms p{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Cycle';
+    display: block;
+    background: rgba(0,0,0,0.8);
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+#contdescripFilms h3{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'PTSerif';
+    text-transform: uppercase;
+    background: rgba(0,0,0,0.8);
+    padding: 25px 0px;
+    margin: 0px;
+}
+
+#contdescripFilms ul{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: 'Cycle';
+    font-size: 15px;
+    list-style: none;
+    padding: 0px;
+    background: rgba(0,0,0,0.8);
+    margin: 0px;
+}
+
+#contdescripFilms ul li{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 
 #tituloF {
