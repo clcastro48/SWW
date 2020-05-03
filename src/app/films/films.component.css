@@ -19,9 +19,10 @@
 }
 
 #contdescripFilmstitle {
-    width: 100%;
+    width: 80%;
     display: flex;
     background: rgba(0,0,0,1);
+    margin: auto;
     margin-top: 50px;
     margin-bottom: 10px;
 }
@@ -36,8 +37,9 @@
 }
 
 #contdescripFilms {
-    width: 100%;
+    width: 80%;
     display: block;
+    margin: auto;
     margin-top: 0px;
     margin-bottom: 25px;
 }
