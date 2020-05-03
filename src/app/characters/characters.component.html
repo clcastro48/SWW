@@ -1,1 +1,54 @@
-<p>characters works!</p>
+<div id="contCharacters">
+    <div id="tituloF">
+        <h4>Characters</h4>
+    </div>
+    <div id="imfF">
+        <img src="./assets/imagenes/deathStar.jpg" />
+    </div>
+    <div id="infF">
+        <div ng-app="myApp" ng-controller="customersCtrl">
+            <table>
+                <tr>
+                    <th>
+                        Nombre del personaje
+                    </th>
+                    <th>
+                        Altura
+                    </th>
+                    <th>
+                        Peso
+                    </th>
+                    <th>
+                        Color de cabello
+                    </th>
+                    <th>
+                        Color de piel
+                    </th>
+                    <th>
+                        Color de ojos
+                    </th>
+                    <th>
+                        Año de nacimiento
+                    </th>
+                    <th>
+                        Género
+                    </th>
+                </tr>
+                <tr *ngFor="let character of listCharacters">
+                    <td>{{character.name}}</td>
+                    <td> {{character.height}}</td>
+                    <td> {{character.mass}}</td>
+                    <td> {{character.hair_color}}</td>
+                    <td> {{character.skin_color}} </td>
+                    <td> {{character.eye_color}} </td>
+                    <td> {{character.birth_year}} </td>
+                    <td> {{character.gender}} </td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</div>
+<div id="espacio_menu">
+</div>

@@ -16,6 +16,7 @@ import { CabeceraComponent } from './cabecera/cabecera.component';
 import { ContenidoComponent } from './contenido/contenido.component';
 import { MenuNavegComponent } from './menu-naveg/menu-naveg.component';
 import { FilmsService } from './films.service';
+import { PlanetasService } from "./planetas.service";
 
 @NgModule({
   declarations: [
@@ -35,7 +36,7 @@ import { FilmsService } from './films.service';
     AppRoutingModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [PlanetasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

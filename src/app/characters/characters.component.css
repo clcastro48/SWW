@@ -1,1 +1,156 @@
+#contFilms {
+    width: 100%;
+}
 
+#tituloF {
+    display: block;
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    font-family: 'HeroesA';
+    color: #f2ae0a;
+    font-size: 4.4em;
+}
+
+#imfF {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    z-index: -1;
+}
+
+#imfF img {
+    width: 300px;
+}
+
+#infF2 {
+    display: none;
+}
+
+#infF {
+    display: flex;
+    background: rgba(255,255,255,0.6);
+    width: 100%;
+    z-index: 40;
+}
+
+#secFS {
+    display: grid;
+    margin: 0;
+}
+
+.secF {
+    display: block;
+    margin: 0px 0px 0px 60px;
+}
+
+.filmC {
+    margin:0px 0px;
+    width: 300px;
+    cursor: pointer;
+}
+
+#secFP {
+    display: inline-block;
+    margin-left: 2px;
+    padding: 3px 4px;
+    margin: 0;
+}
+
+#film7 {
+    width:187px;
+    cursor: pointer;
+}
+
+#secFC {
+    display: inline-block;
+    margin-left: 10px;
+    margin: 10px 30px;
+    width: 50%;
+    text-align: justify;
+    font-family: 'Cycle';
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#secFC h2 {
+    font-family: 'HeroesA';
+    text-align: center;
+    font-size: 30px;
+}
+
+#espacio_menu {
+    width: 100%;
+    height: 50px;
+}
+
+@media screen and (max-width: 1100px) {
+    #imfF img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1215px) {
+    .filmC {
+        width: 70px;
+    }
+
+    #film7 {
+        width:147px;
+    }
+
+    #secFC {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1015px) {
+    #infF {
+        display: none;
+    }
+
+    #infF2 {
+        display: block;
+        background: rgba(255,255,255,0.6);
+        width: 100%;
+        z-index: 40;
+    }
+
+    #secFC2 {
+        display: block;
+        display: inline-block;
+        margin-left: 10px;
+        margin: 10px 30px;
+        width: 92%;
+        text-align: justify;
+        font-family: 'Cycle';
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #secFC2 h2 {
+        font-family: 'HeroesA';
+        text-align: center;
+        font-size: 30px;
+    }
+
+    #secFC3 {
+        display: block;
+        padding: 0px 20px;
+    }
+
+    .filmC {
+        width: 125px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    #secFC2 {
+        width: 86%;
+    }
+
+    #secFC3 {
+        display: block;
+        padding: 0px 85px;
+    }
+}
