@@ -35,18 +35,18 @@
 }
 
 #secFS {
-    display: inline-block;
+    display: grid;
     margin: 0;
 }
 
 .secF {
     display: block;
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 0px 60px;
 }
 
 .filmC {
-    margin:35px 155px;
-    width: 90px;
+    margin:0px 0px;
+    width: 300px;
     cursor: pointer;
 }
 
