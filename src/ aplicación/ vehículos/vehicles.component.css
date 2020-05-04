@@ -1,0 +1,73 @@
+
+# cont_text {
+    
+    fondo : rgba ( 34 , 34 , 34 , 0.75 );
+    altura de línea : 50 px ;
+    alinear texto : centro;
+    margen izquierdo : 10 px ;
+    margen superior : 10 px ;
+    margen inferior : 10 px ;
+    borde : 1 px doble # f2ae0a ;
+}
+
+un {
+
+    color : # f2ae0a ;
+    altura de línea : 10 px ;
+    font-family : 'Ciclo' ;
+    decoración de texto : ninguno;
+    tamaño : 500 px ;
+    alineación de texto : derecha;
+    
+
+}
+
+# div_img_v {
+    ancho : 50 % ;
+    alinear texto : izquierda;
+    altura de línea : 10 px ;
+    tamaño : 100 px ;
+   
+}
+
+
+p {
+    alinear texto : izquierda;
+    altura de línea : 50 px ;
+    tamaño : 100 px ;
+    desbordamiento de texto : clip;
+    font-family : "Ciclo" ;
+    color : # f2ae0a ;
+} 
+
+# opc_div {
+    ancho : 50 % ;
+    tamaño : 100 px ;
+    altura de línea : 30 px ;
+        
+}
+
+
+# cont_prin {
+    pantalla : flex;
+    tamaño de fondo : 30 px ;
+    
+    
+}
+
+h2 {
+    borde : 4 px doble # f2ae0a ;
+    alinear texto : centro;
+    ancho : 300 px ;
+    fondo : rgba ( 34 , 34 , 34 , 0.75 );
+}
+
+# h22 {
+    margen izquierdo : 150 px ;
+    margen superior : 40 px ;
+    margen inferior : 40 px ;
+}
+
+# h23 {
+    margen izquierdo : 300 px ;
+}
