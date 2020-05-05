@@ -21,13 +21,13 @@
 #contdescripFilmstitle {
     width: 80%;
     display: flex;
-    background: rgba(0,0,0,1);
+    background: rgba(0, 0, 0, 1);
     margin: auto;
     margin-top: 50px;
     margin-bottom: 10px;
 }
 
-#contdescripFilmstitle h1{
+#contdescripFilmstitle h1 {
     width: 100%;
     color: white;
     font-family: 'PTSerif';
@@ -44,30 +44,30 @@
     margin-bottom: 25px;
 }
 
-#contdescripFilms p{
+#contdescripFilms p {
     width: 100%;
     text-align: center;
     color: white;
     font-family: 'Cycle';
     display: block;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     margin: 0px;
     padding: 0px;
     font-size: 15px;
 }
 
-#contdescripFilms h3{
+#contdescripFilms h3 {
     width: 100%;
     text-align: center;
     color: white;
     font-family: 'PTSerif';
     text-transform: uppercase;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     padding: 25px 0px;
     margin: 0px;
 }
 
-#contdescripFilms ul{
+#contdescripFilms ul {
     width: 100%;
     text-align: center;
     color: white;
@@ -75,11 +75,11 @@
     font-size: 15px;
     list-style: none;
     padding: 0px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     margin: 0px;
 }
 
-#contdescripFilms ul li{
+#contdescripFilms ul li {
     width: 100%;
     padding: 0px;
     margin: 0px;
@@ -112,7 +112,7 @@
 
 #infF {
     display: flex;
-    background: rgba(255,255,255,0.6);
+    background: rgba(255, 255, 255, 0.6);
     width: 100%;
     z-index: 40;
 }
@@ -128,7 +128,7 @@
 }
 
 .filmC {
-    margin:3px 4px;
+    margin: 3px 4px;
     width: 90px;
     cursor: pointer;
 }
@@ -141,7 +141,7 @@
 }
 
 #film7 {
-    width:187px;
+    width: 187px;
     cursor: pointer;
 }
 
@@ -177,11 +177,9 @@
     .filmC {
         width: 70px;
     }
-
     #film7 {
-        width:147px;
+        width: 147px;
     }
-
     #secFC {
         font-size: 14px;
     }
@@ -191,14 +189,12 @@
     #infF {
         display: none;
     }
-
     #infF2 {
         display: block;
-        background: rgba(255,255,255,0.6);
+        background: rgba(255, 255, 255, 0.6);
         width: 100%;
         z-index: 40;
     }
-
     #secFC2 {
         display: block;
         display: inline-block;
@@ -210,18 +206,15 @@
         font-size: 15px;
         line-height: 20px;
     }
-
     #secFC2 h2 {
         font-family: 'HeroesA';
         text-align: center;
         font-size: 30px;
     }
-
     #secFC3 {
         display: block;
         padding: 0px 20px;
     }
-
     .filmC {
         width: 125px;
     }
@@ -231,7 +224,6 @@
     #secFC2 {
         width: 86%;
     }
-
     #secFC3 {
         display: block;
         padding: 0px 85px;
