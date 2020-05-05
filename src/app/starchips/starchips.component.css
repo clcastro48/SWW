@@ -8,12 +8,6 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    background-color: black;
-    background-image: url(../starchips/img/espacio5.jpg);
-    font-family: 'Marvel', sans-serif;
-}
-
 img {
     max-width: 100%;
 }
