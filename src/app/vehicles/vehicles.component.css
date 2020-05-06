@@ -1,1 +1,84 @@
 
+#cont_text{
+    
+    background: rgba(34,34,34,0.75);
+    line-height: 30px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px double #f2ae0a;
+}
+
+h1 {
+text-align: center;
+color: #f2ae0a;
+font-family: HeroesA;
+size: 50px;
+line-height: 40px;
+width: 30%;
+
+
+}
+
+a {
+
+    color: #f2ae0a;
+    line-height:10px;
+    font-family: 'Cycle';
+    text-decoration: none;
+    size: 200px;
+    text-align: right;
+    
+
+}
+
+#div_img_v {
+    width: 50%;
+    text-align: center;
+    line-height: 10px;
+    size: 100px;
+   
+}
+
+
+p {
+    text-align: left;
+    text-overflow: clip;
+    font-family: "Cycle";
+    color: #f2ae0a;
+    line-height: 30px;
+} 
+
+#opc_div {
+    width: 50%;
+    
+    line-height: 30px;
+        
+}
+
+
+#cont_prin {
+    display: flex;
+    background-size: 30px;
+    
+    
+}
+
+h2 {
+    border: 4px double #f2ae0a;
+    text-align: center;
+    width:300px;
+    background: rgba(34,34,34,0.75);
+}
+
+#h22{
+    margin-left: 150px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#h23{
+    margin-left: 300px;
+}
+
